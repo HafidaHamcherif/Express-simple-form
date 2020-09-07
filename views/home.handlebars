@@ -1,0 +1,11 @@
+<h1>express simple form</h1>
+
+<ul>
+    {{#each students}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+
+<form action="/student/add" method="POST">
+    <input name="username"/>
+</form>
